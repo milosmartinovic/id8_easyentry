@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "mm_easy_entry",
+  "version": "0.1.0",
+  "tree": "package",
+  "modules": [
+    "src/easy_entry.js",
+    "src/view.js",
+    "src/client.js"
+  ],
+  "sdk": [
+    "oap-sdk/src/core/OnlineApp.js",
+    "oap-sdk/src/logging/logging"
+  ]
+}

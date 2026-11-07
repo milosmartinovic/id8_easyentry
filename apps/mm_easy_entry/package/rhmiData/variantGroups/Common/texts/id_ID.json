@@ -1,0 +1,23 @@
+{
+  "SID_TEMP_EMPTY": "",
+  "SID_EE_TITLE": "Easy entry",
+  "SID_EE_EASY_ENTRY": "Easy entry",
+  "SID_EE_EASY_ENTRY_EXIT": "Easy entry / exit",
+  "SID_EE_EXIT_POSITION": "Exit position",
+  "SID_EE_BACK_TRAVEL": "Back travel",
+  "SID_EE_RAISE_SEAT": "Raise seat",
+  "SID_EE_MOVE_BACK_WHEN": "Move back when",
+  "SID_EE_MEMORY_1_AT_ENGINE_START": "Memory 1 at engine start",
+  "SID_EE_SEAT_AND_DOOR_SETUP": "Seat and door setup",
+  "SID_EE_TEST": "Test",
+  "SID_EE_SEAT_MEMORY": "Seat memory",
+  "SID_EE_SEAT_POSITION": "Seat position",
+  "SID_EE_DRIVER_DOOR": "Driver door",
+  "SID_EE_SEARCH_THE_CATALOG_AGAIN": "Search the catalog again",
+  "SID_EE_SAVE_FINDINGS_TO_USB": "Save findings to USB",
+  "SID_EE_PICK": "Pick",
+  "SID_EE_NOT_SET": "Not set",
+  "SID_EE_MOVE_FOR_EXIT": "Move for exit",
+  "SID_EE_MEMORY_1": "Memory 1",
+  "SID_EE_MEMORY_2": "Memory 2"
+}

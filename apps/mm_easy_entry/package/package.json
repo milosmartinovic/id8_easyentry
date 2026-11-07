@@ -1,0 +1,44 @@
+{
+  "name": "mm_easy_entry",
+  "version": "0.1.0",
+  "description": "Easy entry / exit for the driver's seat (iDrive 8): switch it on or off, the exit position (far back and up, or memory 2), how far, when it moves, memory 1 at engine start; the seat and door setup and a test page. Needs the Easy entry tool.",
+  "private": false,
+  "main": "javascript/runner.js",
+  "oapAppSettings": {
+    "maxDiskUsage": 5242880,
+    "cpuLimit": 10,
+    "memoryThresholdKB": 65536,
+    "priority": "PRIO_LOW",
+    "visibility": "FOREGROUND",
+    "latencyClass": "FOREGROUND",
+    "loggingId": "MMEE",
+    "userLoginRequired": false,
+    "backgroundPriority": 150,
+    "someipManifest": "manifest.json"
+  },
+  "files": [
+    "rhmiData",
+    "package.json",
+    "npm-shrinkwrap.json",
+    "permissions.json",
+    "javascript",
+    "manifest.json",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "oap-sdk": "24.10.2"
+  },
+  "engines": {
+    "node": ">=8.7.0"
+  },
+  "author": "Milos Martinovic",
+  "license": "GPL-3.0-or-later",
+  "mguLocalOnly": true,
+  "mguHmi": [
+    "ID8"
+  ],
+  "mguRequires": {
+    "mm-easy-entry": "0.1.0"
+  },
+  "productName": "Easy entry"
+}

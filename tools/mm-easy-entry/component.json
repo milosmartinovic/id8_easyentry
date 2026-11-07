@@ -1,0 +1,37 @@
+{
+  "id": "mm-easy-entry",
+  "kind": "tool",
+  "version": "0.1.0",
+  "title": "Easy entry",
+  "description": "Driver's seat easy entry / exit: after engine off it moves the seat back and up (or to its memory 2) when the driver's door opens, and to memory 1 at engine start. Set up and switched on or off in the Easy entry app.",
+  "optional": true,
+  "uninstallable": true,
+  "mguHmi": [
+    "ID8"
+  ],
+  "requires": {
+    "mgu-deploy": "0.7.11"
+  },
+  "files": [
+    { "path": "easyentry.js", "from": "easyentry.js", "mode": "0644" },
+    { "path": "logic.js", "from": "logic.js", "mode": "0644" },
+    { "path": "catalog.js", "from": "catalog.js", "mode": "0644" },
+    { "path": "someip.js", "from": "someip.js", "mode": "0644" },
+    { "path": "seatctl", "from": "seatctl", "mode": "0755" }
+  ],
+  "units": [
+    { "name": "mm-easy-entry.service", "from": "mm-easy-entry.service" }
+  ],
+  "enable": [
+    { "unit": "mm-easy-entry.service", "target": "multi-user.target" }
+  ],
+  "recmgr": [
+    "mm-easy-entry"
+  ],
+  "crashNames": [
+    "seatctl"
+  ],
+  "restart": [
+    "mm-easy-entry.service"
+  ]
+}

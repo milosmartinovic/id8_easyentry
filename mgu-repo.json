@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "components": [
+    { "id": "mm-easy-entry", "kind": "tool", "path": "tools/mm-easy-entry" },
+    { "id": "mm_easy_entry", "kind": "app", "path": "apps/mm_easy_entry", "build": "unit", "mguHmi": ["ID8"],
+      "requires": { "mm-easy-entry": "0.1.0" } }
+  ]
+}

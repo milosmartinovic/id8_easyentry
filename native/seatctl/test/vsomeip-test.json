@@ -1,0 +1,3 @@
+{ "unicast": "127.0.0.1", "logging": { "level": "warning", "console": "true" },
+  "applications": [ { "name": "fake-provider", "id": "0x1001" } ],
+  "routing": "fake-provider", "service-discovery": { "enable": "false" } }

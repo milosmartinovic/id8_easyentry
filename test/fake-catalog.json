@@ -1,0 +1,5 @@
+{ "interfaces": {
+  "de.bmw.infotainment.vehicle.SeatComfortTest": { "serviceId": "0xB5AA", "version": { "major": 1 },
+    "methods": { "requestSeatMemoryRecall": { "id": 12, "in": [ { "name": "seat", "dataRef": "SeatSel" }, { "name": "memoryPosition", "dataRef": "MemPos" } ] } } } },
+  "datatypes": { "SeatSel": { "type": "enum", "items": { "UNKNOWN": 0, "DRIVER": 1 } },
+                 "MemPos": { "type": "enum", "items": { "NONE": 0, "MEMORY_1": 1, "MEMORY_2": 2, "MEMORY_3": 3 } } } }
